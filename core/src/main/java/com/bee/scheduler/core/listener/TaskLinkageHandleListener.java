@@ -37,7 +37,7 @@ public class TaskLinkageHandleListener extends TaskListenerSupport {
                 try {
                     if (item instanceof String) {
                         String taskKey = ((String) item);
-                        taskLogger.info("触发联动任务:" + taskKey);
+                        taskLogger.info("触发联动任务  :" + taskKey);
                         String[] group$name = StringUtils.split(taskKey, ".");
                         String group = group$name[0];
                         String name = group$name[1];
